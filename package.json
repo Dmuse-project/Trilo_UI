@@ -1,0 +1,17 @@
+{
+  "name": "trilo_ui",
+  "version": "1.0.0",
+  "description": "A UI for  natour company",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss  css/style.css -w"
+  },
+  "author": "uche-daniel nzube",
+  "license": "ISC",
+  "dependencies": {
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
